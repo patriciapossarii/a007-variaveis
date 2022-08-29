@@ -48,7 +48,7 @@ let frioHojeResposta = prompt(frioHoje )
 //```
 //Você está usando uma roupa azul hoje? - SIM
 
-console.log (`Hoje está ventando? - ${ventoHojeResposta}`)
-console.log (`Hoje está chovendo? - ${chuvaHojeResposta}`)
-console.log (`Hoje está ventando? - ${frioHojeResposta}`)
+console.log (ventoHoje, ventoHojeResposta)
+console.log (chuvaHoje, chuvaHojeResposta)
+console.log (frioHoje, frioHojeResposta)
 
