@@ -65,15 +65,15 @@ Trocando os copos
 </details>
 */
 
-let sucoCopo1 = prompt("Qual o suco do copo 1?")
-let sucoCopo2 = prompt("Qual o suco do copo 2?")
-let copoVazio
+let valorDeA = 10
+let valorDeB = 25
+let varAuxiliar
 
-copoVazio = sucoCopo1
-sucoCopo1 = sucoCopo2
-sucoCopo2 = copoVazio
+varAuxiliar = valorDeA
+valorDeA = valorDeB
+valorDeB = varAuxiliar
 
 
 
-console.log (`Suco Copo 1 ? - ${sucoCopo1}`)
-console.log (`Suco Copo 2 ? - ${sucoCopo2}`)
+console.log (`O novo valor de A é: ${valorDeA}`)
+console.log (`O novo valor de B é: ${valorDeB}`)
